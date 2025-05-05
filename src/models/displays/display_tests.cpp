@@ -23,3 +23,10 @@ TEST_CASE("update_display", "[display]")
 
     REQUIRE(d.getText() == "Updated Text");
 }
+
+TEST_CASE("show_display","[display]")
+{
+    Display d("Initial Text");
+    d.show(); // This will print to the console
+    // You can check the console output manually to verify the display text.    
+}
